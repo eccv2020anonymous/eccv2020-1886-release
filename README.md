@@ -81,7 +81,7 @@ between the packages used in the code (at the time of submission).
 
 Inside the docker, change the working directory to this repository: 
 ```
-cd /mars/PATH/TO/THIS/REPO/SurfaceNormalEstimation_release
+cd /mars/PATH/TO/THIS/REPO/eccv2020-1886-release
 ```
 
 # Datasets and pretrained models
