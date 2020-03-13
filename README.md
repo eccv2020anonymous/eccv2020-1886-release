@@ -115,7 +115,7 @@ Please follow the below steps to extract surface normals from some RGB images us
 `DFPN_TAL_SR.ckpt`, `FPN_canonical_view.ckpt`, `FPN_generalized_view.ckpt`, `FPN_warping_params.ckpt`.
 You can also follow this [link](https://www.dropbox.com/s/waje7724dwesmkr/demo_checkpoints.zip?dl=0) to download ONLY these checkpoints.
 
-2. Download our demo RGB images from this [link](https://www.dropbox.com/s/y09y86x2ywtwafx/demo_dataset.zip?dl=0) and extract them to [`./demo_dataset/`](./demo_dataset).
+2. Download our demo RGB images from this [link](https://www.dropbox.com/s/y09y86x2ywtwafx/demo_dataset.zip?dl=0), extract, and place the `.png` files inside [`./demo_dataset/`](./demo_dataset).
 
 3. Run [`inference.sh`](./inference.sh) to extract the results in [`./demo_results/`](./demo_results).
 
