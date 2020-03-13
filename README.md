@@ -111,9 +111,9 @@ Please follow this [link](https://www.dropbox.com/s/ir3cxsgd30c027v/checkpoints.
 # Quick Inference
 
 Please follow the below steps to extract surface normals from some RGB images using our provided pre-trained model:
-1. Make sure you have the following `.ckpt` files inside [`./checkpoints/`](./checkpoints) folder: 
-`DFPN_TAL_SR.ckpt`, `FPN_canonical_view.ckpt`, `FPN_generalized_view.ckpt`, `FPN_warping_params.ckpt`.
-You can also follow this [link](https://www.dropbox.com/s/waje7724dwesmkr/demo_checkpoints.zip?dl=0) to download ONLY these checkpoints.
+1. Make sure you have the following `.ckpt` file inside [`./checkpoints/`](./checkpoints) folder: 
+`DFPN_TAL_SR.ckpt`.
+You can also follow this [link](https://www.dropbox.com/s/37c7v5hx2xo759m/DFPN_TAL_SR.ckpt?dl=0) to download ONLY this checkpoint.
 
 2. Download our demo RGB images from this [link](https://www.dropbox.com/s/y09y86x2ywtwafx/demo_dataset.zip?dl=0), extract, and place the `.png` files inside [`./demo_dataset/`](./demo_dataset).
 
