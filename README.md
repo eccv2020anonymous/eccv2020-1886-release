@@ -72,7 +72,7 @@ For more detailed instructions, please refer to [this link](https://cnvrg.io/how
 To activate the docker environment, run the following command:
 
 ```
-nvidia-docker run -it --rm --ipc=host -v /:/mars nvcr.io/nvidia/pytorch:19.08-py3
+nvidia-docker run -it --rm --ipc=host -v /:/home nvcr.io/nvidia/pytorch:19.08-py3
 ```
 
 where `/` is the directory in the local machine (in this case, the root folder), and `/home` is the reflection of that directory in the docker. 
@@ -81,7 +81,7 @@ between the packages used in the code (at the time of submission).
 
 Inside the docker, change the working directory to this repository: 
 ```
-cd /mars/PATH/TO/THIS/REPO/eccv2020-1886-release
+cd /home/PATH/TO/THIS/REPO/eccv2020-1886-release
 ```
 
 # Datasets and pretrained models
