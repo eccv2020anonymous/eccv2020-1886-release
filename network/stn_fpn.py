@@ -459,9 +459,9 @@ class SpatialWarpingFPN(nn.Module):
         cc = np.array([160, 120])
         self.warp_2dof_alignment = Warping2DOFAlignment(fx=fc[0], fy=fc[1], cx=cc[0], cy=cc[1])
 
-        self.generalized_view_cnn.load_state_dict(torch.load('./checkpoints/FPN_generalized_view.ckpt'))
-        self.warp_params_cnn.load_state_dict(torch.load('./checkpoints/FPN_warping_params.ckpt'))
-        self.canonical_view_cnn.load_state_dict(torch.load('./checkpoints/FPN_canonical_view.ckpt'))
+        # self.generalized_view_cnn.load_state_dict(torch.load('./checkpoints/FPN_generalized_view.ckpt'))
+        # self.warp_params_cnn.load_state_dict(torch.load('./checkpoints/FPN_warping_params.ckpt'))
+        # self.canonical_view_cnn.load_state_dict(torch.load('./checkpoints/FPN_canonical_view.ckpt'))
 
     def forward(self, x):
         # Step 1: Generalized view
